@@ -52,13 +52,21 @@ func main() {
 	// 第六个示例 工作池
 	startTime := time.Now()
 	noOfJobs := 100
+	// 任务分配
 	go ch23.Allocate(noOfJobs)
+	// 任务完成标记
 	done := make(chan bool)
+	// 协程进行结果的运算
 	go ch23.ResultFunc(done)
 	noOfWorkers := 30
+	// 创建Go的协程工作池
 	ch23.CreateWorkerPool(noOfWorkers)
 	<-done
 	endTime := time.Now()
 	diff := endTime.Sub(startTime)
 	fmt.Println("total time taken ", diff.Seconds(), "seconds")
+	// 总结与分析 随着工作协程数量增加，完成作业的总时间会减少。你们可以练习一下：
+	// 在 main 函数里修改 noOfJobs 和 noOfWorkers 的值，并试着去分析一下结果
+
+	// 采用工作池的方式，高效的降低运行时间。工作池 工作协程有效的对 资源 jobs 和 results 的协调性处理
 }
