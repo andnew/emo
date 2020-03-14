@@ -1,15 +1,15 @@
-package main
+//package main
 
-import (
-	"ch22"
-	"config"
-	"fmt"
-)
+//import (
+//	"ch22"
+//	"config"
+//	"fmt"
+//)
 
-func main() {
-	fmt.Println("Hello emo!")
-	//config.LoadConfig()
-	config.LoadConfig()
+//func main() {
+//	fmt.Println("Hello emo!")
+//	//config.LoadConfig()
+//	config.LoadConfig()
 
 	// 第一个示例
 	//ch22.Demo1()
@@ -118,4 +118,4 @@ func main() {
 
 	squares, cubes := <-sqrch, <-cubech
 	fmt.Println("Final output", squares+cubes)
-}
+//}
