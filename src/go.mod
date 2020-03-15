@@ -8,6 +8,7 @@ require (
 	ch22 v0.0.0 //indirect
 	ch23 v0.0.0 //indirect
 	ch24 v0.0.0 //indirect
+	ch25 v0.0.0 //indirect
 	config v0.0.0 //indirect
 )
 
@@ -17,5 +18,6 @@ replace (
 	ch22 v0.0.0 => ./ch22
 	ch23 v0.0.0 => ./ch23
 	ch24 v0.0.0 => ./ch24
+	ch25 v0.0.0 => ./ch25
 	config v0.0.0 => ./config
 )
