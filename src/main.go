@@ -1,7 +1,7 @@
 package main
 
 import (
-	ch "ch35"
+	ch "ch36"
 	"fmt"
 )
 
@@ -20,7 +20,7 @@ func main() {
 	ch.MainCall4()
 
 	// 第五个示例
-	//ch.MainCall5()
+	ch.MainCall5()
 
 	// 第六个示例
 	//ch.MainCall6()
