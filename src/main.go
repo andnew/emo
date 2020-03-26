@@ -9,10 +9,10 @@ func main() {
 	ch.MainCall1()
 
 	// 第二个示例
-	ch.MainCall2()
+	//ch.MainCall2()
 
 	// 第三个示例
-	ch.MainCall3()
+	//ch.MainCall3()
 
 	// 第四个示例
 	//ch.MainCall4()
