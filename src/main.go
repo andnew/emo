@@ -1,7 +1,7 @@
 package main
 
 import (
-	ch "ch30"
+	ch "ch31"
 )
 
 func main() {
@@ -15,10 +15,10 @@ func main() {
 	ch.MainCall3()
 
 	// 第四个示例
-	ch.MainCall4()
+	//ch.MainCall4()
 
 	// 第五个示例
-	ch.MainCall5()
+	//ch.MainCall5()
 
 	// 第六个示例
 	//ch.MainCall6()
