@@ -2,21 +2,10 @@ package ch11
 
 import "fmt"
 
-func slice1() {
-	aint := [3]int{1, 2, 3}
-	aslice := aint[1:2]
-	aslice = append(aslice, 4)
-	aslice[0] = 99
-	fmt.Println("slice1 == ", aint, aslice, len(aslice), cap(aslice))
+func MainCall5() {
+	a := [...]int{12, 78, 50}
+	fmt.Println(a)
 }
 
-func slice2() {
-	aint := [3]int{1, 2, 3}
-	aslice := aint[1:2]
-	fmt.Println("首次===== ", &aslice, len(aslice), cap(aslice))
-	aslice = append(aslice, 4, 5)
-	fmt.Println("after append ", &aslice, len(aslice), cap(aslice))
-	aslice[0] = 99
-	fmt.Println("update aslice[0] ", &aslice, len(aslice), cap(aslice))
-	fmt.Println("slice2 == ", aint, aslice, len(aslice), cap(aslice))
-}
+// 总结&分析
+// 声明时忽略数组的长度，并用 ... 代替，让编译器自动计算长度
