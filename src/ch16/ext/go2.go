@@ -49,5 +49,6 @@ func demo02() {
 	user := User{
 		username: "Seekload",
 	}
+	fmt.Println(ross, user)
 	//fmt.Println(ross == user) //编译报错 Invalid operation: ross == user (mismatched types Employee7 and User)
 }
