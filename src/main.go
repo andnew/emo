@@ -1,13 +1,13 @@
 package main
 
-import ch "ch16/ext"
+import ch "ch37"
 
 func main() {
 	// 第一个示例--声明
-	//ch.MainExt1()
+	ch.MainCall1()
 
 	// 第二个示例--使用
-	ch.MainExt2()
+	//ch.MainCall2()
 
 	// 第三个示例
 	//ch.MainSlice3()

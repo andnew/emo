@@ -29,6 +29,7 @@ require (
 	ch34 v0.0.0 //indirect
 	ch35 v0.0.0 //indirect
 	ch36 v0.0.0 //indirect
+	ch37 v0.0.0 //indirect
 	config v0.0.0 //indirect
 )
 
@@ -59,5 +60,6 @@ replace (
 	ch34 v0.0.0 => ./ch34
 	ch35 v0.0.0 => ./ch35
 	ch36 v0.0.0 => ./ch36
+	ch37 v0.0.0 => ./ch37
 	config v0.0.0 => ./config
 )
