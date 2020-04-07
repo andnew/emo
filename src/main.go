@@ -1,10 +1,10 @@
 package main
 
-import ch "ch15"
+import ch "ch29"
 
 func main() {
 	// 第一个示例--声明
-	ch.MainCall1()
+	//ch.MainCall1()
 
 	// 第二个示例--使用
 	//ch.MainCall2()
@@ -29,5 +29,14 @@ func main() {
 
 	// 第九个示例
 	//ch.MainCall9()
+
+	// 第十个示例
+	//ch.MainCall10()
+
+	// 第十一个示例
+	//ch.MainCall11()
+
+	// 第十二个示例
+	ch.MainCall12()
 
 }
