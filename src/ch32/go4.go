@@ -21,7 +21,7 @@ func aa() {
 
 func MainCall4() {
 	aa()
-	fmt.Println("normally returned from main")
+	fmt.Println("normally returned from MainCall7")
 }
 
 // 总结&分析

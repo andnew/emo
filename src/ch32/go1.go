@@ -21,10 +21,10 @@ func fullName(firstName *string, lastName *string) {
 }
 
 func MainCall1() {
-	defer fmt.Println("deferred call in main")
+	defer fmt.Println("deferred call in MainCall7")
 	firstName := "Elon"
 	fullName(&firstName, nil)
-	fmt.Println("return normally from main")
+	fmt.Println("return normally from MainCall7")
 }
 
 // 总结&分析

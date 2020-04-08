@@ -29,7 +29,7 @@ func a() {
 
 func MainCall3() {
 	a()
-	fmt.Println("normally returned from main")
+	fmt.Println("normally returned from MainCall7")
 }
 
 // 总结&分析

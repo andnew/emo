@@ -1,6 +1,6 @@
 package main
 
-import ch "ch29"
+import ch "ch32"
 
 func main() {
 	// 第一个示例--声明
@@ -16,10 +16,10 @@ func main() {
 	//ch.MainSlice4()
 
 	// 第五个示例
-	//ch.MainSlice5()
+	//ch.MainCall5()
 
 	// 第六个示例
-	//ch.MainSlice6()
+	//ch.MainCall6()
 
 	// 第七个示例
 	//ch.MainCall7()
@@ -28,7 +28,7 @@ func main() {
 	//ch.MainCall8()
 
 	// 第九个示例
-	//ch.MainCall9()
+	ch.MainCall9()
 
 	// 第十个示例
 	//ch.MainCall10()
@@ -37,6 +37,6 @@ func main() {
 	//ch.MainCall11()
 
 	// 第十二个示例
-	ch.MainCall12()
+	//ch.MainCall12()
 
 }
